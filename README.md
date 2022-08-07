@@ -1,2 +1,5 @@
 # project-terraform-dev
-To create dev env
+This repo contains Terraform code to create a dev environment.
+
+Prerequisites:
+
