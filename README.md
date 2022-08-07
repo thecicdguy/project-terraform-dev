@@ -30,4 +30,6 @@ To do
 
 1. Implemet Workload Identity Federation
 2. Implement Binary Authorization
-3. Include any automated testing
+3. Create a VPC
+4. To secure app url ,look in using Load Balancer with Cloud Armor
+5. Use customer managed encryption keys for Artifact Registry
