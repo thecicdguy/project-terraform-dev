@@ -34,7 +34,7 @@ resource "google_cloud_run_service_iam_member" "cloud_run_deployer" {
   project  = var.project_id
   location = var.region_id
   service  = var.service_name
-  role     = "roles/run.admin"
+  role     = "roles/run.developer"
   member   = "serviceAccount:cloud-run-deployer@${var.project_id}.iam.gserviceaccount.com"
   depends_on = [google_service_account.container_deployer]
 }
