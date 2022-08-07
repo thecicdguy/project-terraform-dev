@@ -23,10 +23,11 @@ and then come and re apply this code***
 
 1. Install terraform on local
 2. Clone this repo to local
-3. terrafor m
+3. Cd to repo location, make your changes and run init, plan and apply
+4. For any resource drift, which may happen with Cloud Run services, use -refresh-only option to update state file.
 
 To do
 
-1.Implemet workload federation
-2.Implement Binary Authorization
-3.Include any automated testing
+1. Implemet workload federation
+2. Implement Binary Authorization
+3. Include any automated testing
