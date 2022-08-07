@@ -16,7 +16,7 @@ Prerequisites:
 3. Update variables.tf with project, region and zone ids.
 
 Steps to run 
-***Note: The first apply will fail on CloudRun as the repository doesn't have image. ***
+***Note: The first apply will fail on CloudRun as the repository doesn't have image.***
 ***After first failure, run the GitHub actions job to build and copy container to repository***
 ***and then come and re apply this code***
 1. Install terraform on local
