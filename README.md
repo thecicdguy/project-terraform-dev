@@ -28,6 +28,6 @@ and then come and re apply this code***
 
 To do
 
-1. Implemet workload federation
+1. Implemet Workload Identity Federation
 2. Implement Binary Authorization
 3. Include any automated testing
