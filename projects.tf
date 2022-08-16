@@ -23,5 +23,10 @@ module "project-services" {
     "artifactregistry.googleapis.com",
     "iam.googleapis.com",
     "binaryauthorization.googleapis.com",
+    "containerscanning.googleapis.com",
+    "sqladmin.googleapis.com",
+    "sql-component.googleapis.com",
+    "compute.googleapis.com",
+    "container.googleapis.com",
   ]
 }

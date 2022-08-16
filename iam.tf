@@ -12,6 +12,13 @@ resource "google_service_account" "container_deployer" {
   description  = "Used to deploy to Cloud Run"
 }
 
+resource "google_service_account" "storage-writer" {
+  account_id   = "storage-writer"
+  display_name = "storage-writer"
+  project      = var.project_id
+  description  = "Used to write to storage"
+}
+
 resource "google_project_iam_member" "project" {
   project = var.project_id
   role    = "roles/iam.serviceAccountUser"
